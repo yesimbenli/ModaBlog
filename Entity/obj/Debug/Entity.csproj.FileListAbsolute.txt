@@ -1,0 +1,41 @@
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\Entity\bin\Debug\Entity.dll.config
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\Entity\bin\Debug\Entity.dll
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\Entity\bin\Debug\Entity.pdb
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\Entity\bin\Debug\EntityFramework.dll
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\Entity\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\Entity\bin\Debug\EntityFramework.xml
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\Entity\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\Entity\obj\Debug\Entity.dll
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\Entity\obj\Debug\Entity.pdb
+C:\Users\nuuklu\Desktop\ModaBlog\Entity\bin\Debug\Entity.dll.config
+C:\Users\nuuklu\Desktop\ModaBlog\Entity\bin\Debug\Entity.dll
+C:\Users\nuuklu\Desktop\ModaBlog\Entity\bin\Debug\Entity.pdb
+C:\Users\nuuklu\Desktop\ModaBlog\Entity\bin\Debug\EntityFramework.dll
+C:\Users\nuuklu\Desktop\ModaBlog\Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nuuklu\Desktop\ModaBlog\Entity\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nuuklu\Desktop\ModaBlog\Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nuuklu\Desktop\ModaBlog\Entity\bin\Debug\EntityFramework.xml
+C:\Users\nuuklu\Desktop\ModaBlog\Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nuuklu\Desktop\ModaBlog\Entity\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nuuklu\Desktop\ModaBlog\Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nuuklu\Desktop\ModaBlog\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\nuuklu\Desktop\ModaBlog\Entity\obj\Debug\Entity.dll
+C:\Users\nuuklu\Desktop\ModaBlog\Entity\obj\Debug\Entity.pdb
+C:\Users\PC\Desktop\ModaBlog\Entity\bin\Debug\Entity.dll.config
+C:\Users\PC\Desktop\ModaBlog\Entity\bin\Debug\Entity.dll
+C:\Users\PC\Desktop\ModaBlog\Entity\bin\Debug\Entity.pdb
+C:\Users\PC\Desktop\ModaBlog\Entity\bin\Debug\EntityFramework.dll
+C:\Users\PC\Desktop\ModaBlog\Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\ModaBlog\Entity\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\PC\Desktop\ModaBlog\Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\PC\Desktop\ModaBlog\Entity\bin\Debug\EntityFramework.xml
+C:\Users\PC\Desktop\ModaBlog\Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\ModaBlog\Entity\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\PC\Desktop\ModaBlog\Entity\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\PC\Desktop\ModaBlog\Entity\obj\Debug\Entity.dll
+C:\Users\PC\Desktop\ModaBlog\Entity\obj\Debug\Entity.pdb

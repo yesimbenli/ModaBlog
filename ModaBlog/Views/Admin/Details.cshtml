@@ -1,0 +1,82 @@
+﻿@model Entity.Models.Makale
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Makale</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Baslik)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Baslik)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Icerik)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Icerik)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Yazar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Yazar)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ResimURL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ResimURL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tarih)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tarih)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KategoriID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KategoriID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UyeID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UyeID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Okuma)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Okuma)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MakaleID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

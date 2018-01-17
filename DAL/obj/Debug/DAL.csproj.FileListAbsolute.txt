@@ -1,0 +1,53 @@
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\bin\Debug\DAL.dll.config
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\bin\Debug\DAL.dll
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\bin\Debug\DAL.pdb
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\bin\Debug\Entity.dll
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\bin\Debug\EntityFramework.dll
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\bin\Debug\Entity.pdb
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\bin\Debug\EntityFramework.xml
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\obj\Debug\DAL.dll
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\obj\Debug\DAL.pdb
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\obj\Debug\DAL.Migrations.kurulum.resources
+C:\Users\nuuklu\documents\visual studio 2015\Projects\ModaBlog\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\bin\Debug\DAL.dll.config
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\bin\Debug\DAL.dll
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\bin\Debug\DAL.pdb
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\bin\Debug\Entity.dll
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\bin\Debug\EntityFramework.dll
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\bin\Debug\Entity.pdb
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\bin\Debug\EntityFramework.xml
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\obj\Debug\DAL.dll
+C:\Users\nuuklu\Desktop\ModaBlog\DAL\obj\Debug\DAL.pdb
+C:\Users\PC\Desktop\ModaBlog\DAL\bin\Debug\DAL.dll.config
+C:\Users\PC\Desktop\ModaBlog\DAL\bin\Debug\DAL.dll
+C:\Users\PC\Desktop\ModaBlog\DAL\bin\Debug\DAL.pdb
+C:\Users\PC\Desktop\ModaBlog\DAL\bin\Debug\Entity.dll
+C:\Users\PC\Desktop\ModaBlog\DAL\bin\Debug\EntityFramework.dll
+C:\Users\PC\Desktop\ModaBlog\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PC\Desktop\ModaBlog\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\PC\Desktop\ModaBlog\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\PC\Desktop\ModaBlog\DAL\bin\Debug\Entity.pdb
+C:\Users\PC\Desktop\ModaBlog\DAL\bin\Debug\EntityFramework.xml
+C:\Users\PC\Desktop\ModaBlog\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PC\Desktop\ModaBlog\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\PC\Desktop\ModaBlog\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\PC\Desktop\ModaBlog\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\ModaBlog\DAL\obj\Debug\DAL.dll
+C:\Users\PC\Desktop\ModaBlog\DAL\obj\Debug\DAL.pdb
+C:\Users\PC\Desktop\ModaBlog\DAL\obj\Debug\DAL.Migrations.kurulum3.resources
+C:\Users\PC\Desktop\ModaBlog\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+C:\Users\PC\Desktop\ModaBlog\DAL\obj\Debug\DAL.Migrations.kisiler.resources

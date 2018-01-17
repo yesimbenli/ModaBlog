@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Entity.Models.Makale>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Baslik)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Icerik)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Yazar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ResimURL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tarih)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KategoriID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UyeID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Okuma)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Baslik)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Icerik)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Yazar)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ResimURL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tarih)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KategoriID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UyeID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Okuma)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MakaleID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MakaleID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MakaleID })
+        </td>
+    </tr>
+}
+
+</table>

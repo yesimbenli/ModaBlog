@@ -1,0 +1,29 @@
+﻿@model Entity.Models.Makale
+@{
+    ViewBag.Title = Model.Baslik;
+}
+<h2>Beraber Öğrenelim</h2>
+<section class="banner-section"></section>
+<section class="post-content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 post-title-block">
+                <h1 class="text-center">@Model.MakaleBaslik</h1>
+                <ul class="list-inline text-center">
+                    <li>@Model.Title</li>
+                    <li>@Model.Description</li>
+                    <li>@Model.Keywords</li>
+                    <li>@Model.EklenmeTarihi.ToShortDateString() |</li>
+                </ul>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-12">
+                @Html.Raw(Model.Content)
+            </div>
+            <div class="col-lg-3  col-md-3 col-sm-12">
+                <div class="well">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

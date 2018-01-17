@@ -1,0 +1,386 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout= "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<Entity.Models.Makale>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Yeşim Benli &mdash; Öğrenin&Öğretin</title>
+    <meta name="description" content="Free Bootstrap 4 Theme by ProBootstrap.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+</head>
+<body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+@*Menu*@    <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-4" style="background-image: url('../../images/plant-3077047_960_720.jpg');" id="section-home">
+        <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
+            <div class="container">
+                <img src="~/images/d9dd4b9470d2c4f1e3e8824c17731b79.jpg" width="60" />
+                <a class="navbar-brand" href="/">Yeşim Benli</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="ion-navicon"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="probootstrap-navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#section-home">Ana Sayfa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#section-about">Hakkımızda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#section-why-us">Neden Biz?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#section-attorneys">Yazarlar</a></li>
+                        <li class="nav-item"><a class="nav-link" href="~/Makale/Index">Makaleler</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#section-contact">İletişim</a></li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item"><a class="nav-link" href="~/Admin/AdminPanel">Admin Paneli</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/Account/Cikis">Çıkış</a></li>
+                        }
+                        else
+                        {
+                            <li class="nav-item"><a class="nav-link" href="~/Account/Login">Giriş Yap</a></li>
+                        }
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row align-items-center justify-content-end">
+                <div class="col-md-6  order-md-1">
+                    <h2 class="heading mb-3">Bu Bi Moda Blogu</h2>
+                    <div class="sub-heading">
+                        <p class="mb-5">Yaşam Hakkında Herşey</p>
+                        <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">Bize Ulaşın</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END section -->
+
+@*Biz kimiz*@  <section class="pb_section pb_section_v1" data-section="about" id="section-about">
+        <div class="container">
+            <div class="row">
+               <div class="col-lg-5 pr-md-5 pr-sm-0">
+                    <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">Biz kimiz?</h2>
+                    <p>Biz ziyaretçilerine farklılık sunmayı ana ilke haline getiren bir topluluğuz.
+                   Keyif alabileceğiniz,zamanın nasıl geçtiğini anlamayacağınız bir blog olması hayali ile açtığımız sayfamızın renkli içeriğinde kaybolmanız dileği ile.İlgin ve yeni içerikler sizleri bekliyor!</p>
+                   <p>Sizler de bizimle bir projenizi paylaşmak, fikir ve düşüncelerinizi belirtmek isterseniz bize yazın. </p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="images">
+                        <img  class="img1 img-fluid" src="~/images/flowers1.jpg" alt="free Template" width="400"/>
+                        <img class="img2" src="~/images/flowers2.jpg" alt="free Template" width="400"/> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END section -->
+
+@*Kategoriler*@  <section class="pb_section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <div class="media pb_media_v2 d-block text-center mb-3">
+                        <div class="media-body">
+                            <h3 class="mt-0 pb_font-20">Kendin Yap &amp; Paylaş</h3>
+                            <p>Hayal dünyası bizi bekle!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="media pb_media_v2 d-block text-center  mb-3">
+                        <div class="media-body">
+                            <h3 class="mt-0 pb_font-20">Dünya Gelişmeleri</h3>
+                            <p>Dünyada olan değişiklikleri bazen gözden kaçırdığımız oluyor.Siz de dünya haberlerinin sıkı takipçisi olmak istiyorsanız içeriklerimize göz atın.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="media pb_media_v2 d-block text-center  mb-3">
+                        <div class="media-body">
+                            <h3 class="mt-0 pb_font-20">Pratik Bilgiler</h3>
+                            <p>Pratiklik yoğun hayat tempomuzun en önemli ihtiyaçlarındandır.Saatlerimizi verdiğimiz bazı işleri aslında çok az bir sürede yapabiliriz.işte tam da bu içeriğimizde sizleri minik tüyolar ve pratikler bekliyor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END section -->
+@**Neden biz*@    
+    <section class="pb_section" data-section="why-us" id="section-why-us">
+        <div class="container" >
+            <div class="row justify-content-md-center text-center mb-5">
+                <div class="col-lg-7">
+                    <h2 class="mt-0 heading-border-top font-weight-normal">Neden Biz?</h2>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-lg-7" >
+                    
+                        <img class="img1 img-fluid" src="~/images/6d02b438b68025450d2574fa38962c87.jpg" alt="free Template" width="250">
+                        <img class="img2" src="~/images/8e602d2f25a62a9bb549ef9d8759be0a.jpg" alt="free Template" width="250" >
+                   
+                </div>
+                <div class="col-lg-5 pl-md-5 pl-sm-0">
+                    <div id="exampleAccordion" class="pb_accordion" data-children=".item">
+                        <div class="item">
+                            <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" aria-expanded="true" aria-controls="exampleAccordion1" class="pb_font-18">Kendin için bir şeyler yap!</a>
+                            <div id="exampleAccordion1" class="collapse show" role="tabpanel">
+                              <p>Dışarı çık,yeni mekanlar keşfet.Şehir turu yap.Öğren,bilgi hazinene yeni bilgiler ekle..
+                                Yeter ki kendini mutlu et.</p> 
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion2" aria-expanded="false" aria-controls="exampleAccordion2" class="pb_font-18">Spor Yap</a>
+                            <div id="exampleAccordion2" class="collapse" role="tabpanel">
+                                <p>Spor yapmak,fit kalmak için yapmanız gereken ilk şey spora yazılmak veya diyet yapmak değildir.Düzenli olarak spor için ayırdığınız vakitte yapabileceğiniz ufak egzersizler,yürüyüşler ile sizde sağlıklı ve dinç olabilirsiniz.Unutmayın herşey kararlılık ile başlar.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion3" aria-expanded="false" aria-controls="exampleAccordion3" class="pb_font-18">Dünyayı iyileştirelim</a>
+                            <div id="exampleAccordion3" class="collapse" role="tabpanel">
+                                <p>Yapamam demeyin bazen yaptığımız ufacık bir şey ile mutlu edip mutlu olabiliyoruz.Bazen,bir hayvanı beslediğimizde onun bir bakışı günümüzün çok güzel geçmesini sağlayabiliyor.Yeter ki görün,görmeye çalışın gerisi en kolayı!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END section -->
+@**Bize ulaşın*@<section class="pb_sm_py_cover text-center cover-bg-black cover-bg-opacity-4" style="background-image: url(~/Content/law-master/assets/images/1900x1200_img_3.jpg)">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12">
+                    <h2 class="heading mb-3">Bize ulaşın</h2>
+                    <p class="sub-heading mb-5 pb_color-light-opacity-8">Deneyimlerinizi ve fikirlerinizi,önerilerimizle yaptığınız projelerinizi bizimle paylaşın! Hep birlikte öğrenelim.</p>
+                    <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">Hadi Başlayalım!</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END section -->
+
+
+@*Slider*@  <section class="pb_section">
+        <div class="multiple-items pb_slide_v1">
+            <div>
+                <a href="~/Views/Makale/MakaleDetail.cshtml" class="link-block">
+                    <img src="~/images/1.jpg" alt="" class="img-fluid" width="400" />
+                    <div class="slide-text">
+                        <h2>Dekorasyon Önerileri</h2>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="~/Views/Makale/MakaleDetail.cshtml" class="link-block">
+                  
+                    <img src="~/images/dd7183424d16da4665ddde65de933ae3.jpg" alt="" class="img-fluid" width="400" />
+                    <div class="slide-text">
+                        <h2>Dekorasyon Önerileri</h2>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="~/Views/Makale/MakaleDetail.cshtml" class="link-block">
+                    <img src="~/images/fb97b5a82074334e95ca8960c2080825.jpg"alt="" class="img-fluid" width="400"/>  
+                    <div class="slide-text">
+                        <h2>Tasarlayın</h2>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="~/Views/Makale/MakaleDetail.cshtml" class="link-block">
+                    <img src="~/images/portakal kurutma.jpg"  alt="" class="img-fluid" width="400"/>  
+                    <div class="slide-text">
+                        <h2>Tarifler</h2>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="~/Views/Makale/MakaleDetail.cshtml"class="link-block">
+
+                    <img src="~/images/95ff5368b0dbad8457a6cd546c916faa.jpg" alt="" class="img-fluid" width="400" />    
+                    <div class="slide-text">
+                        <h2>Dekorasyon Önerileri</h2>  
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="~/Views/Makale/MakaleDetail.cshtml" class="link-block">
+                  
+                    <img src="~/images/2.jpg"   alt="" class="img-fluid" width="352"/>  
+                    <div class="slide-text">
+                        <h2>Takı Önerileri</h2>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="~/Views/Makale/MakaleDetail.cshtml" class="link-block">
+                    <img src="~/images/1bc59134b8a7979e63a6484053542d9b.jpg"alt="" class="img-fluid" width="400"/>  
+                    <div class="slide-text">
+                        <h2>Çiçeklerin Dünyası</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- END section -->
+
+ @*Yazarlar*@   @*<section class="pb_section bg-light bg-image with-overlay" data-section="attorneys" id="section-attorneys" style="background-image: url(~/Content/law-master/assets/images/1900x1200_img_2.jpg)">
+        <div class="container">
+            <div class="row justify-content-md-center text-center mb-5">
+                <div class="col-lg-7">
+                    <h2 class="mt-0 heading-border-top light font-weight-normal text-white">Yazarlarımız</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="card text-center pb_card_v1 mb-4">
+                        <div class="card-body">
+                            <h4 class="card-title mt-0 mb-2">Yeşim Benli</h4>
+                            <h6 class="card-subtitle mb-2">Developer</h6>
+                            <p><a href="#">Praesent justo massa, imperdiet ut enim sit amet, 
+                                aliquam eleifend sem. Integer pharetra, purus eget gravida maximus, ante est mollis neque, vitae gravida ipsum enim a est. Sed ultrices, odio nec mollis feugiat, augue enim aliquam mauris, vel tempor velit libero ut metus. Nunc porta elit in dapibus feugiat. </a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card text-center pb_card_v1 mb-4">
+
+                        @*<img class="card-img-top rounded-circle w-50 mx-auto"src="~/images/ecezaim.jpg" alt="Card image cap" width="20"/>*@
+                            @*<h4 class="card-title mt-0 mb-2">Ece Zaim</h4>
+                            <h6 class="card-subtitle mb-2">Aşcı</h6>
+                            <p><a href="#">ce Zaim, 29 Nisan 1988’de İstanbul’da doğdu. Siyaset Bilimi ve Uluslar arası İlişkiler bölümünden mezun oldu.
+Ulus 29′da stajını tamamladıktan sonra sıcak bölümünde çalışmaya devam etti. 
+2011’de konseptini oluşturduğu ve tasarımını üstlendiği, aynı zamanda chef & owner olarak çalıştığı pastanesi Vanilla Bakery‘i kurdu.İki buçuk yılı aşkın süredir hazırladığı yemek kitabı kitap evlerinde raflardaki yerini aldı.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card text-center pb_card_v1 mb-4">*@
+                       
+                        @*<img class="card-img-top rounded-circle w-50 mx-auto" src="~/images/03c99bb65b7b0b3e1451862c38e4724d.jpg" alt="Card image cap" width="20">*@
+                        @*<div class="card-body">
+                            <h4 class="card-title mt-0 mb-2">Azra Yılmaz</h4>
+                            <h6 class="card-subtitle mb-2">Araştırmacı</h6>
+                            <p><a href="#">Ut nec efficitur mauris, vel consectetur lorem. Quisque et dui aliquam, elementum lacus et, sagittis augue. Quisque nibh nunc, lacinia quis hendrerit ac, sodales a odio. Fusce eget pellentesque magna. Proin ac elit ac quam facilisis elementum eget quis sem. Donec a iaculis nisl. Phasellus eu ornare dui. </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>*@
+        @*</div>
+    </section>*@
+
+ @*Yorumlar*@  <section class="pb_section pb_testimonial_v1" data-section="testimonials" id="section-testimonials">
+        <div class="container">
+            <div class="row justify-content-md-center text-center mb-5">
+                <div class="col-lg-7">
+                    <h2 class="mt-0 heading-border-top font-weight-normal">Yorumlar</h2>
+                    <p>Yorumlarınızı bizimle iletişim bölümünden paylaşın,yayınlayalım.</p>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-10 col-sm-12 mb-5">
+                    <div class="single-item-no-arrow pb_slide_v1">
+                        <div>
+                            <div class="media">
+                              
+                                <img class="d-flex img-fluid rounded-circle mb-sm-5" src="~/images/erkek.jpg"alt="Generic placeholder image">
+                                <div class="media-body pl-md-5 pl-sm-0">
+                                    <blockquote>
+                                        <p>&ldquo;Başarılarınızın devamını dilerim&rdquo;</p>
+                                        <p class="pb_author"><cite class="text-uppercase">Kenan Uslu</cite> Designer</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="media">
+                               
+                                <img class="d-flex img-fluid rounded-circle mb-sm-5"src="~/images/kadın1.jpg" alt="Generic placeholder image">
+                                <div class="media-body pl-md-5 pl-sm-0">
+                                    <blockquote>
+                                        <p>&ldquo;Çok keyif aldım.Tebrikler&rdquo;</p>
+                                        <p class="pb_author"><cite class="text-uppercase">Aslı Kızıl</cite> Artist</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- END section -->
+
+@*İletişim*@   
+@*Çalışmıyor*@
+    <section class="pb_section" data-section="contact" id="section-contact">
+        <div class="container">
+            <div class="row justify-content-md-center text-center mb-5">
+                <div class="col-lg-7">
+                    <h2 class="mt-0 heading-border-top font-weight-normal">İletişime Geçelim</h2>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8 pr-md-5 pr-sm-0 mb-4">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-md">
+                                <div class="form-group">
+                                    <label for="name">Ad Soyad:</label>
+                                    <input type="text" class="form-control p-3 rounded-0" id="name">
+                                </div>
+                            </div>
+                            <div class="col-md">
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input type="text" class="form-control p-3 rounded-0" id="email">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mesaj:</label>
+                            <textarea cols="30" rows="10" class="form-control p-3 rounded-0" id="message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn pb_outline-dark pb_font-13 pb_letter-spacing-2 p-3 rounded-0" value="Mesajı Gönder">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <ul class="pb_contact_details_v1">
+                        <li>
+                            <span class="text-uppercase">Email</span>
+                            yesimbenli7@gmail.com
+                        </li>
+                        <li>
+                            <span class="text-uppercase">Phone</span>
+                            02122326223
+                        </li>
+                        <li>
+                            <span class="text-uppercase">Fax</span>
+                            +30 976 1382 9922
+                        </li>
+                        <li>
+                            <span class="text-uppercase">Adres</span>
+                            Kuloğlu Mh., Barbaros Blv.  <br>
+                            Yıldız İş Hanı No:9 <br>
+                            34353 Beşiktaş/İstanbul
+                            Türkiye
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- loader -->
+    <div id="pb_loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#FDA04F" /></svg></div>
+</body>
+</html>
